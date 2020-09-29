@@ -13,5 +13,5 @@
 ### Missing classes
 
 * SudokuUtilities
-* UserInterfaceImpl (in progress)
 * SudokuBuildLogic
+* GameLogic
