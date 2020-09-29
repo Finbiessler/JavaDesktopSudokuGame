@@ -13,6 +13,5 @@
 ### Missing classes
 
 * SudokuUtilities
-* IUserInterfaceContract
-* UserInterfaceImpl
+* UserInterfaceImpl (in progress)
 * SudokuBuildLogic
