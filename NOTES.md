@@ -14,3 +14,4 @@
 
 * SudokuBuildLogic
 * GameLogic
+* SudokuSolver
