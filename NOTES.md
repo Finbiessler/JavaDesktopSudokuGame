@@ -12,6 +12,5 @@
 
 ### Missing classes
 
-* SudokuUtilities
 * SudokuBuildLogic
 * GameLogic
