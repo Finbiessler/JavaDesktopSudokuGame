@@ -314,7 +314,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
         event.consume();
     }
 
-    // Helper function for handling user input
+    // Helper function for handling user inputs
     private void handleInput(int value, Object source) {
 
         //Passing the input to the event listener contracted in IUserInterfaceContract
