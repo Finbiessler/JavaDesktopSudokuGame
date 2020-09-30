@@ -2,10 +2,12 @@
 A sudoku game as a desktop application. Written in java in complement with javafx for the gui.
 
 ## Usage
-The application is build using java version "12"
+The application is build using java version "12" and javafx-sdk-11.0.2 for the gui. These are mandatory to run the application so please install before running.
 
 ### Building
 1. Clone the repository 
+1. Open the project with your java ide
+1. Run main method in class Main and enjoy
 
 
 ## Objectives 
@@ -18,4 +20,7 @@ The application is build using java version "12"
     * testing 
 
 ## What I learned 
+* create simple gui with javafx
+* plan and model medium sized software project
+* apply SOLID principles to practical project
 
