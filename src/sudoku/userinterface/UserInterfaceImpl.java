@@ -31,7 +31,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
 
     // Hashmap for connecting certain coordinates
     // to the respective SudokuTextField
-    private HashMap<Coordinates, SudokuTextField> textFieldCoordinates;
+    private final HashMap<Coordinates, SudokuTextField> textFieldCoordinates;
 
     //EventListener
     private IUserInterfaceContract.EventListener listener;
@@ -53,7 +53,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
     //Constructor
     //  inits member variables
     //  calls helper function initializing the userinterface
-    public UserInterfaceImpl(Stage stage, Group root) {
+    public UserInterfaceImpl(Stage stage) {
         this.stage = stage;
         this.root = new Group();
         this.textFieldCoordinates = new HashMap<>();
